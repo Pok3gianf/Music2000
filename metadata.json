@@ -1,0 +1,6 @@
+{
+  "name": "Music2000",
+  "description": "Reproductor multimedia web y de escritorio con estilo Corporate Memphis, ecualizador de 10 bandas, persistencia en cookies y soporte de URLs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

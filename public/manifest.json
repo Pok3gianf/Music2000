@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Music2000 - Reproductor Multimedia",
+  "short_name": "Music2000",
+  "description": "Reproductor multimedia corporativo Memphis con ecualizador de 10 bandas, persistencia en cookies, modo ligero y chat entre amigos.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#18181b",
+  "theme_color": "#10b981",
+  "categories": ["music", "entertainment", "multimedia"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

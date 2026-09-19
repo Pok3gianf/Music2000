@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="memphisGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded rectangle -->
+  <rect width="512" height="512" rx="128" fill="#18181b"/>
+  <!-- Memphis decorative geometry -->
+  <circle cx="120" cy="120" r="40" fill="#f43f5e" opacity="0.8"/>
+  <circle cx="400" cy="390" r="50" fill="#eab308" opacity="0.8"/>
+  <path d="M380 90 L420 150 L340 150 Z" fill="#10b981" opacity="0.85"/>
+  <!-- Cassette / Player Body -->
+  <rect x="80" y="140" width="352" height="232" rx="36" fill="url(#memphisGrad)"/>
+  <rect x="100" y="160" width="312" height="192" rx="24" fill="#ffffff" opacity="0.95"/>
+  <!-- Cassette spools -->
+  <circle cx="180" cy="256" r="48" fill="#18181b"/>
+  <circle cx="180" cy="256" r="20" fill="#ffffff"/>
+  <circle cx="332" cy="256" r="48" fill="#18181b"/>
+  <circle cx="332" cy="256" r="20" fill="#ffffff"/>
+  <rect x="180" y="244" width="152" height="24" rx="6" fill="#cbd5e1"/>
+  <!-- Sound waves -->
+  <path d="M 120 380 Q 150 360 180 380 T 240 380 T 300 380 T 360 380 T 420 380" fill="none" stroke="#10b981" stroke-width="8" stroke-linecap="round"/>
+</svg>
